@@ -16,3 +16,21 @@
 .grey{
     background-color: rgba(0, 0, 0, 0.25);
 }
+
+/* Nav bar */
+nav{
+    background-color: #FE9063;
+    
+    width: 86.111%;
+    height: 34.47%;
+    float: right;
+    border-radius: 0px;
+    padding-top: 17.235%;
+    box-sizing: border-box;
+    -moz-border-radius : 25px;
+    -webkit-border-radius : 25px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
