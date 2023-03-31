@@ -17,20 +17,63 @@
     background-color: rgba(0, 0, 0, 0.25);
 }
 
+body{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
 /* Nav bar */
 nav{
-    background-color: #FE9063;
-    
-    width: 86.111%;
-    height: 34.47%;
-    float: right;
-    border-radius: 0px;
-    padding-top: 17.235%;
+    display: flex;
     box-sizing: border-box;
-    -moz-border-radius : 25px;
-    -webkit-border-radius : 25px;
-    border-top-left-radius: 0%;
-    border-top-right-radius: 0%;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    width: 100%;
+    height:10em;
+    flex-direction: column;
+    margin-top: 0px;
 }
+
+.navBar{
+    margin-top: 0px;
+    background-color: #FE9063;
+    display: flex;
+    border-radius: 0px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin-bottom: 10px;
+    width:84%;
+    height:100%;
+}
+
+#logoNav{
+    width: 13%;
+    height: 13.888%;
+    left: 0px;
+    top: 0px;
+
+    background: url(logo makeitroll.png);
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0 10px 10px 10px;
+    height:100%;
+    width: 100%;
+    padding-bottom: 10px;
+    color: blanchedalmond;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    float: left;
+    background-color:rgba(64, 64, 64, 0.34);
+    border: 30px solid rgba(0, 0, 0, 0.34);
+    justify-content: center;
+    width:30%;
+    height: 100%;
+    border-top: none;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    box-sizing: border-box;
+  }
