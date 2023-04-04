@@ -1,79 +1,104 @@
-.orange{
-    background-color: #FE9063;
-}
-.beige{
-    background-color: #FDF0E7;
-}
-.blue-light{
-    background-color: #27C7D4;
-}
-.blue{
-    background-color: #05AFDD;
-}
-.darkblue{
-    background-color: #1DA2AC;
-}
-.grey{
-    background-color: rgba(0, 0, 0, 0.25);
-}
-
-body{
-    margin-top: 0px;
-    padding-top: 0px;
-}
-
-/* Nav bar */
-nav{
-    display: flex;
+/* *{
     box-sizing: border-box;
+    border : solid 2px red;
+} */
+
+html,body{
     width: 100%;
-    height:10em;
-    flex-direction: column;
-    margin-top: 0px;
-}
-
-.navBar{
-    margin-top: 0px;
-    background-color: #FE9063;
-    display: flex;
-    border-radius: 0px;
-    box-sizing: border-box;
-    border-bottom-left-radius: 150px;
-    border-bottom-right-radius: 150px;
-    margin-bottom: 10px;
-    width:84%;
-    height:100%;
-}
-
-#logoNav{
-    width: 13%;
-    height: 13.888%;
-    left: 0px;
-    top: 0px;
-
-    background: url(logo makeitroll.png);
-}
-nav ul{
-    list-style: none;
     margin: 0;
-    padding: 0 10px 10px 10px;
-    height:100%;
+}
+
+.navbar{
+    display: flex;
     width: 100%;
-    padding-bottom: 10px;
-    color: blanchedalmond;
     justify-content: space-between;
 }
 
-nav ul li {
-    display: inline-block;
-    float: left;
-    background-color:rgba(64, 64, 64, 0.34);
-    border: 30px solid rgba(0, 0, 0, 0.34);
+.logo{
+    width: 200px;
+    height: 200px;
+    background-image: url(logo.png);
+    background-size: cover  ;
+}
+
+.rect{
+    display: flex;
     justify-content: center;
-    width:30%;
-    height: 100%;
-    border-top: none;
-    border-bottom-left-radius: 150px;
-    border-bottom-right-radius: 150px;
-    box-sizing: border-box;
+    width: 87%;
+    height: 180px;
+    background: #FE9063;
+    border-radius: 0px 0px 200px 200px;
+}
+
+.rond{
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 160px;
+    height: 160px;
+    background: rgba(0, 0, 0, 0.34);
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.rond:hover{
+    background: rgba(0, 0, 0, 0.764);
+    transition-duration: 500ms;
+}
+
+.circle{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.34);
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.roller{
+    width: 100%;
+    height: 530px;
+    background-image: url(roller.avif);
+    background-size: cover;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #47474767 #78787863;
   }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #78787874;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #4747476d;
+    border-radius: 10px;
+    border: 2px solid #000000;
+  }
+
+.titre{
+    display: flex;
+    width: 800px;
+    height: 370px;
+    background: #FE9063;
+    border-radius: 0px 45px;
+    margin-top: 66px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-titre{
+    width: 80%;
+    font-size : 2.1em;
+}
