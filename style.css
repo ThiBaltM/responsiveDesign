@@ -6,6 +6,7 @@
 html,body{
     width: 100%;
     margin: 0;
+    background-color: #F5F5F5;
 }
 
 .navbar{
@@ -93,12 +94,91 @@ html,body{
     height: 370px;
     background: #FE9063;
     border-radius: 0px 45px;
-    margin-top: 66px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     align-items: center;
     justify-content: center;
 }
 
 .text-titre{
-    width: 80%;
-    font-size : 2.1em;
+    width: 100%;
+    font-size : 2em;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.bleu-c{
+    width: 100%;
+    background-color: #27C7D4;
+    height: 700px;
+}
+
+.bleu{
+    width: 100%;
+    background-color: #05AFBD;
+    height: 50px;
+}
+
+.bleu-f{
+    width: 100%;
+    background-color: #1DA2AC;
+    height: 700px;
+}
+
+.bleu-grad{
+    width: 100%;
+    background: #F5F5F5;
+    background: linear-gradient(0deg, #F5F5F5 0%, #27C7D4 100%);
+    height: 250px;
+}
+
+.beige{
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 350px;
+}
+
+.footer{
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 600px;
+}
+
+.footer-front{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 600px;
+}
+
+.rolleur{
+    width: 415px;
+    height: 560px;
+    background-size: cover;
+    margin-right: 150px;
+}
+
+.main1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content1{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 150px;
+}
+
+.content1-h1{
+    color: white;
+    font-size: 6em;
+}
+
+.content-p{
+    color: white;
+    font-size: 3em;
+    margin-right: 175px;
+    margin-bottom: 150px;
 }
